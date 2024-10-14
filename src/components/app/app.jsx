@@ -1,18 +1,24 @@
-import { Component } from "react";
-
+import NavPanel from "../nav-panel/nav-panel";
 import Promo from "../promo/promo";
 
 import './_app.scss';
 
-class App extends Component {
+export const linksData = [
+    { href: '#', label: 'Coffee house', id: 1 },
+    { href: '#', label: 'Our coffee', id: 2 },
+    { href: '#', label: 'Four your pleasure', id: 3 },
+];
 
-    render() {
-        return (
-            <div className="app">
-                <Promo />
-            </div>
-        )
-    }
+const App =  () => {
+
+    return (
+        <div className='app'>
+            <header className='header'>
+                <NavPanel />
+            </header>
+            <Promo />
+        </div>
+    )
 }
 
 export default App;
