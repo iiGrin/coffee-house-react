@@ -1,26 +1,12 @@
-import './_nav-panel.scss';
+import Links from '../links/links';
 
-import { linksData } from '../app/app';
+import './_nav-panel.scss';
 
 const NavPanel = () => {
 
-    const links = linksData.map(link => {
-
-        return (
-            <li key={link.id} className='nav-panel-item'>
-                <a href={link.href}>
-                    {link.label}
-                </a>
-            </li>
-        )
-    });
-
-
     return (
         <nav className='nav-panel'>
-            <ul>
-                {links}
-            </ul>
+            <Links />
         </nav>
     )
 }

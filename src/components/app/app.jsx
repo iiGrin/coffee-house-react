@@ -1,13 +1,8 @@
 import NavPanel from "../nav-panel/nav-panel";
 import Promo from "../promo/promo";
+import Footer from "../footer/footer";
 
 import './_app.scss';
-
-export const linksData = [
-    { href: '#', label: 'Coffee house', id: 1 },
-    { href: '#', label: 'Our coffee', id: 2 },
-    { href: '#', label: 'Four your pleasure', id: 3 },
-];
 
 const App =  () => {
 
@@ -17,6 +12,7 @@ const App =  () => {
                 <NavPanel />
             </header>
             <Promo />
+            <Footer />
         </div>
     )
 }

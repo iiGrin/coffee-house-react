@@ -1,6 +1,6 @@
 const BeansLogo = () => {
     return (
-        <svg style={{marginBottom: '35'}} width="200.000000" height="29.302002" viewBox="0 0 200 29.302" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg style={{display: 'block'}} width="200.000000" height="29.302002" viewBox="0 0 200 29.302" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter_4_68_dd)">
                 <rect rx="0.500000" width="28.302002" height="28.302002" transform="translate(89.500000 0.500000)" fill="#FFFFFF" fillOpacity="0" />
                 <g clipPath="url(#clip4_50)">
